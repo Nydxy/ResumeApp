@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.runzetang.myresume.MainActivity">
+    <item
+        android:id="@+id/menu_home"
+        android:title="@string/textMenu1"
+        android:icon="@drawable/navigation_a"/>
+    <item
+        android:id="@+id/menu_works"
+        android:title="@string/textMenu2"
+        android:icon="@drawable/navigation_b"/>
+    <item
+        android:id="@+id/menu_media"
+        android:title="@string/textMenu3"
+        android:icon="@drawable/navigation_c"/>
+    <item
+        android:id="@+id/menu_contact"
+        android:title="@string/textMenu4"
+        android:icon="@drawable/navigation_d"/>
+</menu>

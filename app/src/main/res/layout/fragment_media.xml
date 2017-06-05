@@ -1,0 +1,89 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="layout.fragment_home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/videoDescription"
+        android:layout_margin="5dp"
+        android:textSize="18sp"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <VideoView
+            android:id="@+id/videoView"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"/>
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="VideoPlayOnClick"
+        android:text="播放"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="@string/picsDescription"
+        android:textSize="18sp"/>
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="250dp">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/pic1"/>
+                <ImageView
+                    android:layout_width="350dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/pic2"/>
+                <ImageView
+                    android:layout_width="350dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/pic3"/>
+                <ImageView
+                    android:layout_width="520dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/pic4"/>
+                <ImageView
+                    android:layout_width="460dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/pic5"/>
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+</LinearLayout>
+</ScrollView>

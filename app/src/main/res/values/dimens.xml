@@ -1,0 +1,17 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
+    <dimen name="personImageMarginLeft">35dp</dimen>
+    <dimen name="personImageMarginTop">20dp</dimen>
+    <dimen name="personTextMarginLeft">30dp</dimen>
+    <dimen name="contactTextSize">20sp</dimen>
+    <dimen name="contactTextPadding">10dp</dimen>
+    <dimen name="contactTextPaddingLeft">5dp</dimen>
+    <dimen name="contactTextDrawableSize">24dp</dimen>
+    <dimen name="contactTextDrawablePadding">10dp</dimen>
+    <dimen name="contactTextWidth">105dp</dimen>
+
+</resources>

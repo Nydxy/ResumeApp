@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">AppName</string>
+    <string name="action_settings">设置</string>
+    <!--菜单/导航栏的文本-->
+    <string name="textMenu1">首页</string>
+    <string name="textMenu2">成果</string>
+    <string name="textMenu3">相册</string>
+    <string name="textMenu4">联系方式</string>
+
+    <!--首页相关文本-->
+    <string name="userName">Your Name</string>
+    <string name="userDescription">Your Description</string>
+
+    <string name="sectionTitle1">关于我</string>
+    <string name="section1Text1">姓名/Name | Your name</string>
+    <string name="section1Text2">生日/Birth | 19**/**/**</string>
+    <string name="section1Text3">城市/City | Your City</string>
+    <string name="section1Text4">专业/Major | Your Major</string>
+    <string name="section1Text5">教育/Edu | Your school</string>
+
+    <string name="sectionTitle2">经历</string>
+    <string name="section2Text1">2012~2015 | Add your own experience</string>
+    <string name="section2Text2">2015~ | Add your own experience</string>
+
+    <string name="sectionTitle3">技能</string>
+    <string name="section3Text1">Your skills</string>
+    <string name="section3Text2">Your skills</string>
+    <string name="section3Text3">Your skills</string>
+
+    <!--成果页相关文本-->
+    <string name="worksText1">Your work description</string>
+    <string name="worksText2">Your work description</string>
+    <string name="worksText3">Your work description</string>
+    <string name="worksText4">Your work description</string>
+
+    <!--联系方式相关文本-->
+    <string name="contactViceTitle">联系方式</string>
+    <string name="valueQQ">Your QQ</string>
+    <string name="contact_weibo">Your SinaWeibo</string>
+    <string name="contact_weixin">Your wechat</string>
+    <string name="contact_mail">Your e-mail</string>
+    <string name="contact_tel">Your phone</string>
+    <string name="contact_github">Your github</string>
+
+
+    <string name="videoUrl">http://{your video.mp4}</string>
+    <string name="videoDescription">video description</string>
+    <string name="picsDescription">Your pics description</string>
+    <string name="ShareText">Text to share this app</string>
+    <string name="weiboUrl">sinaweibo://userinfo?uid={your weibo uid}</string>
+    <string name="weiboUrl2">https://m.weibo.cn/u/{your weibo uid}</string>
+    <string name="qqUrl"><![CDATA[mqqwpa://im/chat?chat_type=wpa&uin={your QQ number}&version=1&src_type=web&web_src=oicqzone.com]]></string>
+
+
+</resources>
