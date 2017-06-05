@@ -50,6 +50,12 @@ BottomNavigationView实现了底部的导航栏，设置了与ViewPager的联动
 # 五、二次开发手册
 本应用尽量使UI与内容分离，开发者可以较为方便地替换其中的文本、图片等资源。
 
+## 应用图标
+>/app/src/main/res/mipmap-hdpi/ic_launcher.png
+>/app/src/main/res/mipmap-hdpi/ic_launcher_round.png
+
+请务必替换掉从hdpi到xxxhdpi各种dpi下的图标！
+
 ## 文本
 文本都存放在
 
@@ -87,5 +93,7 @@ BottomNavigationView实现了底部的导航栏，设置了与ViewPager的联动
 请注意本项目使用GPLv3授权！
 
 如果你不知道什么是开源授权协议，简单地说，你可以免费使用本项目代码，可以自由修改，但你必须声明原作者，并同样保持开源。
+
+对于使用本项目源代码造成的一切后果，本人概不负责。
 
 If you have any problem, contact to me via e-mail.
