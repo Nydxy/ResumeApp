@@ -52,6 +52,7 @@ BottomNavigationView实现了底部的导航栏，设置了与ViewPager的联动
 
 ## 应用图标
 >/app/src/main/res/mipmap-hdpi/ic_launcher.png
+>
 >/app/src/main/res/mipmap-hdpi/ic_launcher_round.png
 
 请务必替换掉从hdpi到xxxhdpi各种dpi下的图标！
