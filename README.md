@@ -71,7 +71,7 @@ BottomNavigationView实现了底部的导航栏，设置了与ViewPager的联动
 
 注意！
 
-- 替换图片时请保持文件名不便
+- 替换图片时请保持文件名不变
 - 替换之后布局可能需要修改
 - 图片不要太大，否则会OOM(OutOfMemory)
 
@@ -83,11 +83,11 @@ BottomNavigationView实现了底部的导航栏，设置了与ViewPager的联动
 请保持文件名不变
 
 ## 在线视频
-请在strings/xml中填写你的视频的地址
+请在strings.xml中填写你的视频的地址
 
 ## 你的个人联系方式
 
-请在strings/xml中填写你的相应的联系方式
+请在strings.xml中填写你的相应的联系方式
 
 --------
 
